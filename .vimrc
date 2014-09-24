@@ -148,6 +148,7 @@ let g:EasyMotion_keys = 'fjdkslaureiwoqpvncm'
 noremap <C-U><C-B> :ls<CR>:buf 
 noremap <C-U><C-M> :Unite mark<CR>
 noremap <C-U><C-O> :Unite outline<CR>
+noremap <C-U><C-T> :Unite tab<CR>
 
 " NeoComplete
 " 使用可能にする
