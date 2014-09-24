@@ -1,6 +1,8 @@
 " フォントをRictyに指定
-set guifont=Ricty:h16
-set lsp=4
+if has('mac')
+    set guifont=Ricty:h16
+    set lsp=4
+endif
 
 " 色系の指定=======================================
 " とりあえずscheme指定でザックリ指定
